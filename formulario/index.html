@@ -5,12 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right,#e66465, #9198e5);
+        }
+        .box{
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(214,53,102,0.7);
+            padding: 15px;
+            border-radius: 15px;
+            
+        }
+        fieldset{
+            border: 3px solid #9198e5;
+            border-radius: 15px;
+        }
+        legend{
+            border: 1px solid #9198e5;
+            padding: 10px;
+            text-align: center;
+            background-color: #9198e5;
+            border-radius: 15px;
+        }
+
+    </style>
 </head>
 <body>
     <div class="box">
         <form action="">
             <fieldset>
-                <b>Agende Sua Aula</b> 
+                <legend><b>Agende Sua Aula</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome">Seu Nome</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="nome">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="nivel" id="nivel" class="inputUser" required>
+                    <label for="nivel">Sua Série</label>
+                </div>
+                    <br>
+                    <div>
+                    <p align="center">Quais aulas você quer agendar?</p>
+                    <input type="radio" name="materia" id="fisica" value="Física" required>
+                    <label for="fisica">Física</label>
+                    <br><br>
+                    <input type="radio" name="materia" id="matematica" value="matemática" required>
+                    <label for="matematica">Matemática</label>
+                    <br><br>
+                    <input type="radio" name="materia" id="matematicaEFisica" value="matemática" required>
+                    <label for="matematicaEFisica">Física e Matemática</label>
+                    <br><br>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco">Endereço</label>
+                </div>
+                <br><br>
+                <div align="center" style="padding-bottom: 10px;">
+                    <input type="submit" name="submit" id="submit"></div>
+                
+
             </fieldset>
         </form>
     </div>
