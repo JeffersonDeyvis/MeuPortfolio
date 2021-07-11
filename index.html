@@ -26,10 +26,10 @@
             border-radius: 50%;
         }
         .corPrimaria{
-            background-color: #84a59d;
+            background-color: #003566;
         }
         .corSecundaria{
-            background-color: #345511;
+            background-color: #000814;
         }
         p {
             font-family:Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -44,7 +44,7 @@
             padding-bottom: 20px;
             text-transform: uppercase;
             font-weight: 700;
-            color:#345511;
+            color:#FFC300;
         }
         .titulosClaros{
             text-decoration: underline;
@@ -52,14 +52,14 @@
             padding-bottom: 20px;
             text-transform: uppercase;
             font-weight: 500;
-            color:#E09F3E;
+            color:#FFD60A;
         }
         .textoClaro{
-            color: #E09F3E !important;
+            color: #FFD60A !important;
         }
         .textoEscuro{
             font-weight: 500;
-            color: #345511 !important;
+            color: #FFD60A !important;
         }
         .textFooter{
             margin: 0px;
@@ -68,6 +68,27 @@
         }
         html{
             scroll-behavior: smooth;
+        }
+        .iconeSize{
+            font-size: 30px;
+        }
+        .corGitPurple{
+            color:#6e5494;
+        }
+        .corIg{
+            color:#E1306C
+        }
+        .corLink{
+            color:#007bb6
+        }
+        .corWpp{
+            color:#34af23
+        }
+        .right{
+            float:right;
+        }
+        .left{
+            float:left;
         }
 
     </style>
@@ -103,10 +124,10 @@
             <img class='foto_perfil' src="https://i.ibb.co/b6TcpNF/eu.png" alt="JeffersonDeyvis">
             <h1 class="jumbotron-heading titulosEscuros">Jefferson Deyvis</h1>
             <p class="lead textoEscuro">Professor de Física - Desenvolvedor web</p>
-            <a href="https://github.com/JeffersonDeyvis/"> <i class= "textoEscuro fab fa-github"></i></a>
-            <a href="https://www.instagram.com/momentodafisica/"> <i class="textoClaro fab fa-instagram icones"></i></a>
-            <a href="https://www.linkedin.com/in/jeffersondeyvis/"> <i class="textoEscuro fab fa-linkedin icones"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=5582988856812&text=Olá,%20te%20encontrei%20através%20do%20seu%20site."> <i class="textoClaro fab fa-whatsapp icones"></i></a>
+            <a href="https://github.com/JeffersonDeyvis/" target="_blank"> <i class= "corGitPurple fab fa-github iconeSize"></i></a>
+            <a href="https://www.instagram.com/momentodafisica/" target="_blank"> <i class="corIg fab fa-instagram icones iconeSize"></i></a>
+            <a href="https://www.linkedin.com/in/jeffersondeyvis/" target="_blank"> <i class="corLink fab fa-linkedin icones iconeSize"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5582988856812&text=Olá,%20te%20encontrei%20através%20do%20seu%20site." target="_blank"> <i class="corWpp fab fa-whatsapp icones iconeSize"></i></a>
         </div>
     </section>
     <div align="center" class="container marketing" id=projetos>
@@ -124,7 +145,7 @@
                     </ul>
                 </div>
                 <p><a class="btn btn-success" href="https://github.com/JeffersonDeyvis/MiniGameDasDungeons"
-                        role="button">Código »</a></p>
+                        role="button" target="_blank">Código »</a></p>
             </div>
             <div class="col-lg-4">
                 <img class="rounded-circle" src="https://i.ibb.co/J3mJj1R/fidelidade.png"
@@ -139,7 +160,7 @@
                     </ul>
                 </div>
                 <p><a class="btn btn-success" href="https://github.com/JeffersonDeyvis/FenomenosDeTransporte"
-                        role="button">Código »</a></p>
+                        role="button" target="_blank">Código »</a></p>
             </div>
             <div class="col-lg-4">
                 <img class="rounded-circle" src="https://i.ibb.co/R6ZPYv6/localiza-o.png"
@@ -154,7 +175,7 @@
                     </ul>
                 </div>
                 <p><a class="btn btn-success" href="https://github.com/JeffersonDeyvis/FenomenosDeLocalizacao"
-                        role="button">Código »</a></p>
+                        role="button" target="_blank">Código »</a></p>
             </div>
             <div class="col-lg-4">
                 <img class="rounded-circle" src="https://i.ibb.co/r6d5dFr/logo-materia-site.png"
@@ -169,8 +190,8 @@
                         <li>bootstrap</li>
                     </ul>
                 </div>
-                <p><a class="btn btn-outline-primary" href="http://200.17.113.231/~jefferson/" role="button">site »</a>
-                    <a class="btn btn-success" href="https://github.com/JeffersonDeyvis/MeuPortfolio/" role="button">Código »</a></p>
+                <p><a class="btn btn-outline-primary" href="http://200.17.113.231/~jefferson/" role="button" target="_blank">site »</a>
+                    <a class="btn btn-success" href="https://github.com/JeffersonDeyvis/MeuPortfolio/" role="button" target="_blank">Código »</a></p>
             </div>
         </div>
         
@@ -195,7 +216,14 @@
     </section>
     <footer>
         <p class="textFooter text-left corSecundaria textoClaro"  id=contato>
-            copyright 2021 Jefferson Deyvis <a href="https://www.instagram.com/jefferson.deyvis/"> &nbsp&nbsp&nbsp&nbsp @jeffersondeyvis</a>
+            &emsp; copyright 2021 Jefferson Deyvis
+            <span class="right">
+            <a href="https://github.com/JeffersonDeyvis/" target="_blank"> <i class= "corGitPurple fab fa-github iconeSize"></i></a>
+            <a href="https://www.instagram.com/jefferson.deyvis/" target="_blank"> <i class="corIg fab fa-instagram icones iconeSize"></i></a>
+            <a href="https://www.linkedin.com/in/jeffersondeyvis/" target="_blank"> <i class="corLink fab fa-linkedin icones iconeSize"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5582988856812&text=Olá,%20te%20encontrei%20através%20do%20seu%20site." target="_blank"> <i class="corWpp fab fa-whatsapp icones iconeSize"></i></a>
+            &emsp;
+            </span>
         </p>
         
     </footer>
