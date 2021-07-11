@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/97703a31ba.js" crossorigin="anonymous"></script>
+    <style>
+        .foto_perfil {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        .corPrimaria{
+            background-color: #84a59d;
+        }
+        .corSecundaria{
+            background-color: #345511;
+        }
+        p {
+            font-family:Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+            color:black !important;
+        }
+        .icones{
+            padding-left: 5px;
+        }
+        .titulosEscuros{
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color:#345511;
+        }
+        .titulosClaros{
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 500;
+            color:#E09F3E;
+        }
+        .textoClaro{
+            color: #E09F3E !important;
+        }
+        .textoEscuro{
+            font-weight: 500;
+            color: #345511 !important;
+        }
+        .textFooter{
+            margin: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textoClaro" href="#">Jefferson Deyvis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link textoClaro" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoClaro" href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoClaro" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img class='foto_perfil' src="https://i.ibb.co/b6TcpNF/eu.png" alt="JeffersonDeyvis">
+            <h1 class="jumbotron-heading titulosEscuros">Jefferson Deyvis</h1>
+            <p class="lead textoEscuro">Professor de Física - Desenvolvedor web</p>
+            <a href="https://github.com/JeffersonDeyvis/"> <i class= "textoEscuro fab fa-github"></i></a>
+            <a href="https://www.instagram.com/momentodafisica/"> <i class="textoClaro fab fa-instagram icones"></i></a>
+            <a href="https://www.linkedin.com/in/jeffersondeyvis/"> <i class="textoEscuro fab fa-linkedin icones"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5582988856812&text=Olá,%20te%20encontrei%20através%20do%20seu%20site."> <i class="textoClaro fab fa-whatsapp icones"></i></a>
+        </div>
+    </section>
+    <div align="center" class="container marketing" id=projetos>
+        <h2 class="titulosEscuros">Projetos</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://i.ibb.co/DVSfWPd/dungeons.png" alt="Generic placeholder image"
+                    width="140" height="140">
+                <h2>Minigame das Dungeons</h2>
+                <div align="justify">
+                    <p>Mini game das dungeons. Tecnologias utilizadas no projeto:</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>html</li>
+                    </ul>
+                </div>
+                <p><a class="btn btn-success" href="https://github.com/JeffersonDeyvis/MiniGameDasDungeons"
+                        role="button">Código »</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://i.ibb.co/J3mJj1R/fidelidade.png"
+                    alt="Generic placeholder image" width="140" height="140">
+                <h2>Fenômenos de Transporte</h2>
+                <div align="justify">
+                    <p>Fenômenos de Transporte da Teoria de Localização de Anderson. Tecnologias utilizadas no
+                        projeto:</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>html</li>
+                    </ul>
+                </div>
+                <p><a class="btn btn-success" href="https://github.com/JeffersonDeyvis/FenomenosDeTransporte"
+                        role="button">Código »</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://i.ibb.co/R6ZPYv6/localiza-o.png"
+                    alt="Generic placeholder image" width="140" height="140">
+                <h2>Fenômenos de Localização</h2>
+                <div align="justify">
+                    <p>Fenômenos de Localização da Teoria de Localização de Anderson.Tecnologias utilizadas no
+                        projeto:</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>html</li>
+                    </ul>
+                </div>
+                <p><a class="btn btn-success" href="https://github.com/JeffersonDeyvis/FenomenosDeLocalizacao"
+                        role="button">Código »</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://i.ibb.co/r6d5dFr/logo-materia-site.png"
+                    alt="Generic placeholder image" width="140" height="140">
+                <h2>Site Profólio</h2>
+                <div align="justify">
+                    <p>Portfólio de projetos. Tecnologias utilizadas no projeto:</p>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>bootstrap</li>
+                    </ul>
+                </div>
+                <p><a class="btn btn-outline-primary" href="http://200.17.113.231/~jefferson/" role="button">site »</a>
+                    <a class="btn btn-success" href="#" role="button">Código »</a></p>
+            </div>
+        </div>
+        
+    </div>
+    <section class="jumbotron text-center corPrimaria">
+    
+        <div class="container">
+            <h2 class="jumbotron-heading titulosClaros" id=sobre-mim>Sobre mim</h2>
+            <p class="lead textoEscuro">Olá, meu nome é jefferson Deyvis, estou iniciando no mercado de desenvolvimento web e decidi compartilhar meus projetos com você. 
+            Sou licenciado em Física pela UFRPE e Mestrando em Física pela UFAL. Ofereço meus serviços de aulas particulares nas modalidades presencial e remota, estou disposto a ajudar você a conquistar seus objetivos, Fique a vontade para entrar em contato.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div class="container fluid">
+                <h2 class="text-center titulosClaros">Disponível para oportudidades</h2>
+                <a href="mailto:deyvis356@gmail.com"><h5 class="text-center">deyvis356@gmail.com</h5></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="textFooter text-left corSecundaria textoClaro"  id=contato>
+            copyright 2021 Jefferson Deyvis <a href="https://www.instagram.com/jefferson.deyvis/"> &nbsp&nbsp&nbsp&nbsp @jeffersondeyvis</a>
+        </p>
+        
+    </footer>
+</body>
+
+</html>
