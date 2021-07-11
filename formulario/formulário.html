@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <style>
+        @import url(tiny.css) (min-width:300px);
+        @import url(small.css) (min-width:600px);
+        @import url(big.css) (min-width:900px); 
         body{
             font-family: Arial, Helvetica, sans-serif;
             background: linear-gradient(to right,#e66465, #9198e5);
@@ -64,6 +67,7 @@
             width: 100%;
             border: none;
             padding: 15px;
+            padding-bottom: 20px;
             border-radius: 15px;
             color: white;
             cursor: pointer;
@@ -108,12 +112,10 @@
                     <input type="text" name="endereco" id="endereco" class="inputUser" required>
                     <label for="endereco" class="anima">Endereço</label>
                 </div>
-                <br><br>
-                <div style="padding-bottom: 10px;">
-                    <input type="submit" name="submit" id="submit">
-                </div>
                 
-
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+                
             </fieldset>
         </form>
     </div>
