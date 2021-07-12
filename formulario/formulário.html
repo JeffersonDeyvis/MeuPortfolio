@@ -4,119 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento | Aula</title>
     <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
-    <title>Formulário</title>
-    <style>
-        
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right,#e66465, #9198e5);
-        }
-        .box{
-            position: absolute;
-            top: 50%;
-            left:50%;
-            transform: translate(-50%,-50%);
-            background-color: rgba(214,53,102,0.7);
-            padding: 15px;
-            border-radius: 15px;
-            width: 50%;
-            color: white;
-            
-        }
-        fieldset{
-            border: 3px solid #9198e5;
-            border-radius: 15px;
-        }
-        legend{
-            border: 1px solid #9198e5;
-            padding: 10px;
-            text-align: center;
-            background-color: #9198e5;
-            border-radius: 15px;
-        }
-        .inputBox{
-            position: relative;
-        }
-        .inputUser{
-            background: none;
-            border: none;
-            border-bottom: 1px solid white;
-            outline: none;
-            color: white;
-            font-size: 15px;
-            width: 98%;
-            letter-spacing: 2px;
-        }
-        .anima{
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            pointer-events: none;
-            transition: .5s;
-        }
-        .inputUser:focus ~ .anima,
-        .inputUser:valid ~ .anima{
-            top: -20px;
-            font-size: 12px;
-            color: #9198e5;
-        }
-        #submit{
-            background: linear-gradient(to right,#e66465, #9198e5);
-            width: 100%;
-            border: none;
-            padding: 15px;
-            padding-bottom: 20px;
-            border-radius: 15px;
-            color: white;
-            cursor: pointer;
-
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box">
+    <main class="container">
+        <h2>Agende Sua Aula</h2>
         <form action="">
-            <fieldset>
-                <legend><b>Agende Sua Aula</b></legend>
-                <br>
-                <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required>
-                    <label for="nome" class="anima">Seu Nome</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" name="email" id="email" class="inputUser" required>
-                    <label for="nome" class="anima">Email</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" name="nivel" id="nivel" class="inputUser" required>
-                    <label for="nivel" class="anima">Sua Série</label>
-                </div>
-                    <br>
-                    <div>
-                    <p>Quais aulas você quer agendar?</p>
-                    <input type="radio" name="materia" id="fisica" value="Física" required>
-                    <label for="fisica">Física</label>
-                    <br><br>
-                    <input type="radio" name="materia" id="matematica" value="matemática" required>
-                    <label for="matematica">Matemática</label>
-                    <br><br>
-                    <input type="radio" name="materia" id="matematicaEFisica" value="matemática" required>
-                    <label for="matematicaEFisica">Física e Matemática</label>
-                    <br><br><br>
-                </div>
-                <div class="inputBox">
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                    <label for="endereco" class="anima">Endereço</label>
-                </div>
-                
-                <br><br>
-                <input type="submit" name="submit" id="submit">
-                
-            </fieldset>
+            <div class="input-field">
+                <input type="text" name="yourname" id="yourname" placeholder="Digite Seu Nome">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="text" name="youremail" id="youremail" placeholder="Digite Seu E-mail">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="text" name="series" id="series" placeholder="Digite Sua Escolaridade">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field"> 
+                <input type="text" name="endereco" id="endereco" placeholder="Digite Seu Endereço">
+                <div class="underline"></div>
+            </div>
+            <div class="input-bttn">
+                <p>Quais aulas você quer agendar?</p>
+            </div>
+            <div class="input-bttn">
+                <input type="radio" name="fisica" id="fisica" value="Física">
+                <label for="fisica">Física</label>
+            </div>
+            <div class="input-bttn">
+                <input type="radio" name="matematica" id="matematica" value="matematica">
+                <label for="matematica">Matemática</label>
+            </div>
+            <div class="input-bttn">
+                <input type="radio" name="fisicaematematica" id="fisicaematematica" value="fisicaematematica">
+                <label for="fisica">Física e Matemática</label>
+            </div>
+            <input type="submit" value="Enviar">
         </form>
-    </div>
+    </main>
 </body>
 </html>
