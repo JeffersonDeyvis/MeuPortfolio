@@ -28,7 +28,9 @@
         }
         .corPrimaria{
             border-radius: 0;
-            background-color: #003566;
+            background: rgb(255,54,254);
+            background: linear-gradient(90deg, rgba(255,54,254,1) 0%, rgba(255,104,236,1) 36%, rgba(0,249,255,1) 100%);
+            
         }
         .corSecundaria{
             background-color: #000814;
@@ -68,6 +70,12 @@
             padding-top: 15px;
             padding-bottom: 15px;
         }
+
+        .container1{
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+            border-radius: 50px;
+        }
+
         html{
             scroll-behavior: smooth;
         }
@@ -131,88 +139,109 @@
             <a href="https://api.whatsapp.com/send?phone=5582988856812&text=Olá,%20te%20encontrei%20através%20do%20seu%20site." target="_blank"> <i class="corWpp fab fa-whatsapp icones iconeSize"></i></a>
         </div>
     </section>
-    <div align="center" class="container marketing" id=projetos>
-        <h2 class="titulosEscuros">Projetos</h2>
-        <div class="row">
-            <div class="col-lg-4">
-                <img class="rounded-circle" src="https://i.ibb.co/DVSfWPd/dungeons.png" alt="Generic placeholder image"
-                    width="140" height="140">
-                <h2>Minigame das Dungeons</h2>
-                <div align="justify">
-                    <p>Mini game das dungeons. Ajude o estimado guerreiro, Melkor, a chegar no destino para resgatar o Tesouro perdido de Sadakar. Tecnologias utilizadas no projeto:</p>
-                    <ul>
-                        <br>
-                        <br>
-                        <li>HTML</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <p><a class="btn btn-success" href="https://github.com/JeffersonDeyvis/MiniGameDasDungeons"
-                        role="button" target="_blank">Código »</a></p>
+
+
+
+
+    <div class="container marketing">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Serviços -<span class="text-muted"> Aulas Particulares.</span></h2>
+            <div align="justify">
+                <p class="lead">Está com dificuldade em Física ou matemática? Agende Uma Aula Particular online ou presencial, <a href="formulario/formulário.html" target="_blank" >Acesse</a> o formuário e agende uma aula comigo. Ambiente em desenvolvimento</p>
+                <ul>
+                    <li>Css</li>
+                    <li>HTML</li>
+                </ul>
             </div>
-            <div class="col-lg-4">
-                <img class="rounded-circle" src="https://i.ibb.co/J3mJj1R/fidelidade.png"
-                    alt="Generic placeholder image" width="140" height="140">
-                <h2>Fenômenos de Transporte</h2>
-                <div align="justify">
-                    <p><em>A teoria de localização de Anderson</em> é uma fenomenologia que trata de efeitos de desordem na função de onda eletrônica. Descubra um pouco mais dos fenômenos de Transporte da Teoria de Localização de Anderson. Tecnologias utilizadas no
-                        projeto:</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <p><a class="btn btn-success" href="https://github.com/JeffersonDeyvis/FenomenosDeTransporte"
-                        role="button" target="_blank">Código »</a></p>
-            </div>
-            <div class="col-lg-4">
-                <img class="rounded-circle" src="https://i.ibb.co/R6ZPYv6/localiza-o.png"
-                    alt="Generic placeholder image" width="140" height="140">
-                <h2>Fenômenos de Localização</h2>
-                <div align="justify">
-                    <p>Estudando propriedades de transporte em sistemas com baixa dimensionalidade descobrimos efeitos interessantes de Localização na função de onda eletrônica, em sistemas com desordem correlacionada. Tecnologias utilizadas no
-                        projeto:</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <p><a class="btn btn-success" href="https://github.com/JeffersonDeyvis/FenomenosDeLocalizacao"
-                        role="button" target="_blank">Código »</a></p>
-            </div>
-            <div class="col-lg-4">
-                <img class="rounded-circle" src="https://i.ibb.co/zF9fdyJ/logo-materia-site.png"
-                    alt="Generic placeholder image" width="140" height="140">
-                <h2>Site Portfólio</h2>
-                <div align="justify">
-                    <p>Portfólio de projetos. Tecnologias utilizadas no projeto:</p>
-                    <ul>
-                        <li>bootstrap</li>
-                        <li>Css</li>
-                        <li>HTML</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <p><a class="btn btn-outline-primary" href="http://200.17.113.231/~jefferson/" role="button" target="_blank">site »</a>
-                    <a class="btn btn-success" href="https://github.com/JeffersonDeyvis/MeuPortfolio/" role="button" target="_blank">Código »</a></p>
-            </div>
-            <div class="col-lg-4">
-                <img class="rounded-circle" src="https://i.ibb.co/7S56qdJ/aulaP.png"
-                    alt="Generic placeholder image" width="140" height="140">
-                <h2>Aulas Particulares</h2>
-                <div align="justify">
-                    <p>Está com dificuldade em Física ou matemática? Agende Uma Aula Particular online ou presencial. Ambiente em desenvolvimento</p>
-                    <ul>
-                        <li>Css</li>
-                        <li>HTML</li>
-                    </ul>
-                </div>
-                <p><a class="btn btn-success" href="formulario/formulário.html"
-                        role="button" target="_blank">Agende uma Aula»</a></p>
-            </div>
+          </div>
+          <div class="col-md-5" >
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="img/bb.gif" data-holder-rendered="true">
+          </div>
         </div>
-        
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Pesquisa -<span class="text-muted"> Teoria de Localização de Anderson - Fenômenos de Transporte.</span></h2>
+            <div align="justify">
+                <p><em>A teoria de localização de Anderson</em> é uma fenomenologia que trata de efeitos de desordem na função de onda eletrônica. Descubra um pouco mais dos fenômenos de Transporte da Teoria de Localização de Anderson. Tecnologias utilizadas no
+                    projeto:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>Python</li>
+                </ul>
+                <p><a href="https://github.com/JeffersonDeyvis/FenomenosDeTransporte" target="_blank">Acesse</a> o Código no Git-Hub</p>
+            </div>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17a9d0f364e%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17a9d0f364e%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.1171875%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 500px; height: 500px;">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Pesquisa -<span class="text-muted">Teoria de Localização de Anderson - Fenômenos de Localização.</span></h2>
+            <p><em>A teoria de localização de Anderson</em> é uma fenomenologia que trata de efeitos de desordem na função de onda eletrônica. Descubra um pouco mais dos fenômenos de Transporte da Teoria de Localização de Anderson. Tecnologias utilizadas no
+                projeto:</p>
+            <ul>
+                <li>HTML</li>
+                <li>Python</li>
+            </ul>
+            <p><a href="https://github.com/JeffersonDeyvis/FenomenosDeLocalizacao" target="_blank">Acesse</a> o Código no Git-Hub</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17a9d0f364f%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17a9d0f364f%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.1171875%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 500px; height: 500px;">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Projetos -<span class="text-muted"> Mini Game das Dungeons</span></h2>
+              <div align="justify">
+                <p>Ajude o estimado guerreiro, Melkor, a chegar no destino para resgatar o Tesouro perdido de Sadakar. Tecnologias utilizadas no projeto:</p>
+                <ul>
+                    <br>
+                    <br>
+                    <li>HTML</li>
+                    <li>Python</li>
+                </ul>
+              <p><a href="https://github.com/JeffersonDeyvis/MiniGameDasDungeons" target="_blank">Acesse</a> o Código no Git-Hub</p>
+              </div>
+            </div>
+            <div class="col-md-5 order-md-1 container1">
+              <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="img/joystick.png" data-holder-rendered="true" style="width: 500px; height: 500px;">
+            </div>
+          </div>
+
+
+          <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Projetos -<span class="text-muted"> Portfólio</span></h2>
+                <p><a href="http://200.17.113.231/~jefferson/" target="_blank">Acesse</a> o Portfólio de projetos hospedado em um servidor. Tecnologias utilizadas no projeto:</p>
+                        <ul>
+                            <li>bootstrap</li>
+                            <li>Css</li>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                        </ul>
+                <p><a href="https://github.com/JeffersonDeyvis/MeuPortfolio/" target="_blank">Acesse</a> o Código no Git-Hub</p>
+                </div>
+                <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17a9d0f364f%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17a9d0f364f%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.1171875%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 500px; height: 500px;">
+                </div>
+            </div>
     </div>
+
+    
     <section class="jumbotron text-center corPrimaria">
     
         <div class="container">
