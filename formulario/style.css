@@ -14,7 +14,8 @@
 definir, cor de fundo, orient. vertical, altura e largura mínima, centralizar itens e texto.
 */
 body{
-    background-image: linear-gradient(225deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    background: rgb(255,54,92);
+    background: linear-gradient(45deg, rgba(255,54,92,1) 0%, rgba(255,104,236,1) 46%, rgba(0,211,255,1) 100%);
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
@@ -31,13 +32,15 @@ main.container{
     max-width: 350px;
     min-height: 40vh;
     padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-    border-radius: 15px;
-
+    border-radius: 30px;
 }
 
 main h2{
     font-weight: 600;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
     position: relative;
 }
@@ -123,3 +126,15 @@ form input[type="submit"]:hover{
     letter-spacing: 1px;
 }
 
+@media (max-width: 320px){
+
+  main.container{
+      border-radius: 20px;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      margin-bottom: 20vh;
+      margin-top: 10vh;
+  }
+    
+}
+    

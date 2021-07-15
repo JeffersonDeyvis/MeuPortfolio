@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.profilePhoto {
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+.iconeSize {
+    font-size: 30px;
+}
+
+.iconColorGit {
+    color: #171515;
+}
+
+.iconColorIg {
+    color: #C13584;
+}
+
+.iconColorLink {
+    color: #0e76a8;
+}
+
+.iconColorWpp{
+    color: #128C7E;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.profile {
+    max-width: 452px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.profile span{
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.profile p{
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+li {
+    list-style: none;
+}
+/*
+https://cssgradient.io/
+*/
+body {
+    background: rgb(255,54,92);
+    background: linear-gradient(45deg, rgba(255,54,92,1) 0%, rgba(255,104,236,1) 46%, rgba(0,211,255,1) 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin-top: 8rem;
+    margin-bottom: 40vh;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    display: grid;
+    align-items: center !important;
+    justify-items: center !important;
+    overflow-x: hidden;
+}
+
+.Projects {
+
+}
+
+.motherBox {
+    padding:  16px 32px 16px 16px;
+    
+}
+
+.box {
+    
+    background-color: rgb(219, 219, 219);   
+    padding: 3rem 3rem 3rem 3rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-media li {
+    margin-left: 1rem;
+    
+}
+
+.box-projects {
+    font-size: 18px;
+    background-color: rgb(219, 219, 219);   
+    margin-top: 8rem;
+    margin-top: 8rem 0;
+    max-width: 886px;
+    padding: 16px;
+    padding: 3rem 3rem 3rem 3rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    overflow-x: hidden;
+    
+}
+
+.round-img {
+    border-radius: 30px;
+    margin-right: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.grid {
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    gap: 1rem;
+    
+}
+
+@media (max-width:770px) {
+    .box-projects.grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+}
