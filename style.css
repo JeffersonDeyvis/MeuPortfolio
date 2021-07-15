@@ -137,6 +137,7 @@ body {
     color: white;
     text-align: center;
     font-size: 24px;
+    text-shadow: 5px 5px 16px black;
 }
 
 @media (max-width:630px) {
@@ -227,6 +228,7 @@ body {
         color: white;
         text-align: center;
         font-size: 18px;
+        text-shadow: 5px 5px 16px black;
     }
 
 }
