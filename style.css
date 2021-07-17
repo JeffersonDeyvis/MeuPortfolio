@@ -21,6 +21,7 @@
     --copyrightblack: black;
     --gold: gold;
     --circle: #0B478C;
+    --bttn: rgba(0,211,255,1);
 }
 
 .dark-mode:root{
@@ -35,6 +36,7 @@
     --wpp: #25D366;
     --gold: gold;
     --circle: #90EE90;
+    --bttn: rgba(83,0,166,1);
 
 }
 
@@ -53,7 +55,7 @@ input[type="checkbox"]{
     width: 60px;
     height: 30px;
     -webkit-appearance: none;
-    background-color: transparent;
+    background-color: var(--bttn);
     outline: none;
     border-radius: 20px;
     box-shadow: inset 0 0 1rem var(--gold);
@@ -68,7 +70,7 @@ input[type="checkbox"]::before{
     height: 20px;
     border-radius: 50%;
     top: 5px;
-    left: 0.2rem;
+    left: 0.4rem;
     background-color: var(--circle);
     transform: scale(1.2);
     transition: 0.3s;
@@ -76,6 +78,7 @@ input[type="checkbox"]::before{
 
 input:checked[type="checkbox"]::before{
     left: 35px;
+    background-color: rbga(83,0,166,1);
 }
 
 
