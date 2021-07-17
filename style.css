@@ -21,7 +21,8 @@
     --copyrightblack: black;
     --gold: gold;
     --circle: #0B478C;
-    --bttn: rgba(0,211,255,1);
+    --bttn: black;
+    --bgbttn: rgba(0,211,255,1);
 }
 
 .dark-mode:root{
@@ -36,7 +37,8 @@
     --wpp: #25D366;
     --gold: gold;
     --circle: #90EE90;
-    --bttn: rgba(83,0,166,1);
+    --bttn: #AAAAAA;
+    --bgbttn: rgba(83,0,166,1);
 
 }
 
@@ -55,18 +57,16 @@ input[type="checkbox"]{
     width: 60px;
     height: 30px;
     -webkit-appearance: none;
-    background-color: var(--bttn);
+    background-color: var(--bgbttn);
     outline: none;
     border-radius: 20px;
-    box-shadow: inset 0 0 1rem var(--gold), 5px 5px 16px var(--shadow);
-    
+    box-shadow: inset 0 0 1rem var(--bttn), 5px 5px 16px var(--shadow);
     transition: 0.2s;
 }
 
 input[type="checkbox"]::before{
     content: '';
     position: absolute;
-    
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -79,7 +79,6 @@ input[type="checkbox"]::before{
 
 input:checked[type="checkbox"]::before{
     left: 35px;
-    background-color: rbga(83,0,166,1);
 }
 
 
