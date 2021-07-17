@@ -272,7 +272,7 @@ body {
 
     label.DarkMode{
         position: absolute;
-        margin-top: -4.2rem;
+        margin-top: -5rem;
         margin-left: -14rem;
      }
      
@@ -338,7 +338,7 @@ body {
 @media (max-width:420px) {
     label.DarkMode{
         position: absolute;
-        margin-top: -4.2rem;
+        margin-top: -5rem;
         margin-left: -12rem;
      }
 }
@@ -346,7 +346,7 @@ body {
 @media (max-width:410px) {
     label.DarkMode{
         position: absolute;
-        margin-top: -4.2rem;
+        margin-top: -5rem;
         margin-left: -10rem;
      }
 }
@@ -354,7 +354,7 @@ body {
 @media (max-width:320px) {
     label.DarkMode{
         position: absolute;
-        margin-top: -4.2rem;
+        margin-top: -5rem;
         margin-left: -9rem;
      }
 }
@@ -362,7 +362,7 @@ body {
 @media (max-width:280px) {
     label.DarkMode{
         position: absolute;
-        margin-top: -4.2rem;
+        margin-top: -5rem;
         margin-left: -7.5rem;
      }
 }
