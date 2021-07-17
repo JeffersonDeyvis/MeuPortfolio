@@ -58,7 +58,8 @@ input[type="checkbox"]{
     background-color: var(--bttn);
     outline: none;
     border-radius: 20px;
-    box-shadow: inset 0 0 1rem var(--gold);
+    box-shadow: inset 0 0 1rem var(--gold), 5px 5px 16px var(--shadow);
+    
     transition: 0.2s;
 }
 
@@ -69,7 +70,7 @@ input[type="checkbox"]::before{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    top: 4px;
+    top: 5px;
     left: 0.4rem;
     background-color: var(--circle);
     transform: scale(1.2);
