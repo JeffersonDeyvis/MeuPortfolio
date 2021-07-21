@@ -50,10 +50,9 @@ a:hover{
     color: var(--wpp);
 } 
 
-
-
 input[type="checkbox"]{
     position: absolute;
+    
     width: 60px;
     height: 30px;
     -webkit-appearance: none;
